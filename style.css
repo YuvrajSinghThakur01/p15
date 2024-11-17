@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fed886;
+}
+
+header {
+    background-color: #e9baba;
+    color: #381111;
+     padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    background-color: #9aeaf8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.campaign-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.campaign {
+    flex: 1 1 calc(50% - 20px);
+    background-color: #e7fa883b;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.analytics-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.analytics-chart {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
